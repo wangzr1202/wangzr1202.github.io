@@ -1,14 +1,14 @@
 :root {
-  --paper: #f8f3e9;
-  --paper-edge: #eee5d6;
-  --ink: #312d27;
-  --ink-soft: #665f55;
-  --ink-faint: #91877a;
-  --rule: #cfc2b1;
-  --accent: #9a6544;
-  --accent-soft: rgb(154 101 68 / 20%);
-  --highlight: rgb(226 198 112 / 42%);
-  --paper-shadow: rgb(70 55 38 / 8%);
+  --paper: #fbf8f1;
+  --paper-edge: #f3ecdf;
+  --ink: #393631;
+  --ink-soft: #756e64;
+  --ink-faint: #a69b8d;
+  --rule: #ded3c3;
+  --accent: #98654a;
+  --accent-soft: rgb(152 101 74 / 14%);
+  --highlight: rgb(232 214 158 / 33%);
+  --paper-shadow: rgb(70 55 38 / 5%);
 
   --hand: "Caveat", "Comic Sans MS", cursive;
   --serif: "EB Garamond", Georgia, serif;
@@ -29,8 +29,8 @@ body {
   margin: 0;
   color: var(--ink);
   background:
-    radial-gradient(circle at 17% 22%, rgb(104 75 47 / 3%) 0 1px, transparent 1.4px) 0 0 / 5px 5px,
-    radial-gradient(circle at 71% 63%, rgb(64 45 28 / 2.5%) 0 1px, transparent 1.5px) 2px 1px / 9px 9px,
+    radial-gradient(circle at 17% 22%, rgb(104 75 47 / 2%) 0 1px, transparent 1.4px) 0 0 / 5px 5px,
+    radial-gradient(circle at 71% 63%, rgb(64 45 28 / 1.5%) 0 1px, transparent 1.5px) 2px 1px / 9px 9px,
     var(--paper);
   font-family: var(--serif);
   font-size: 19px;
@@ -46,7 +46,7 @@ body::after {
   inset: 0;
   background: radial-gradient(ellipse at center, transparent 55%, var(--paper-edge) 100%);
   content: "";
-  opacity: 0.64;
+  opacity: 0.48;
   pointer-events: none;
 }
 
@@ -168,10 +168,6 @@ a:focus-visible {
   color: var(--ink-soft);
 }
 
-.contact-placeholder {
-  border-bottom: 1px dotted var(--rule);
-}
-
 .portrait {
   position: relative;
   width: 180px;
@@ -193,7 +189,7 @@ a:focus-visible {
   width: 180px;
   height: 180px;
   border: 1px solid var(--rule);
-  background: #eee6d8;
+  background: #f4eee4;
   object-fit: cover;
   filter: sepia(0.08) saturate(0.88);
 }
@@ -233,7 +229,7 @@ a:focus-visible {
   bottom: -10px;
   left: -4px;
   height: 8px;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 8' preserveAspectRatio='none'%3E%3Cpath d='M2 5C30 2 60 7 90 4s60 2 108-1' stroke='%239a6544' stroke-width='1.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 8' preserveAspectRatio='none'%3E%3Cpath d='M2 5C30 2 60 7 90 4s60 2 108-1' stroke='%2398654a' stroke-width='1.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
   content: "";
   opacity: 0.85;
 }
@@ -299,10 +295,10 @@ a:focus-visible {
   border: 1px solid var(--rule);
   color: var(--accent);
   background:
-    linear-gradient(125deg, transparent 49.5%, rgb(154 101 68 / 13%) 50%, transparent 50.7%),
-    repeating-linear-gradient(0deg, transparent 0 17px, rgb(154 101 68 / 7%) 17px 18px),
-    #efe7d9;
-  box-shadow: 2px 3px 0 #ddd0be, 0 5px 18px var(--paper-shadow);
+    linear-gradient(125deg, transparent 49.5%, rgb(152 101 74 / 9%) 50%, transparent 50.7%),
+    repeating-linear-gradient(0deg, transparent 0 17px, rgb(152 101 74 / 4%) 17px 18px),
+    #f5eee4;
+  box-shadow: 2px 3px 0 #e8dece, 0 5px 18px var(--paper-shadow);
   transform: rotate(-1deg);
 }
 
