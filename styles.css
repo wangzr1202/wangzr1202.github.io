@@ -100,7 +100,7 @@ a:focus-visible {
 
 .name {
   width: fit-content;
-  margin: 0 0 30px;
+  margin: 0;
   font-family: var(--hand);
   font-size: clamp(68px, 11vw, 104px);
   font-weight: 600;
@@ -112,14 +112,10 @@ a:focus-visible {
 
 .intro-row {
   display: grid;
-  grid-template-columns: 180px minmax(0, 1fr);
-  gap: 52px;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 44px;
   align-items: start;
-}
-
-.hero-copy {
-  min-width: 0;
-  padding-top: 3px;
+  margin-top: 34px;
 }
 
 .intro p {
@@ -150,7 +146,9 @@ a:focus-visible {
 .portrait {
   position: relative;
   width: 180px;
+  max-width: 100%;
   margin: 0;
+  justify-self: end;
   transform: rotate(1.1deg);
 }
 
@@ -166,7 +164,9 @@ a:focus-visible {
 .portrait img {
   display: block;
   width: 180px;
+  max-width: 100%;
   height: 180px;
+  aspect-ratio: 1;
   border: 1px solid var(--rule);
   background: #f4eee4;
   object-fit: cover;
@@ -241,7 +241,7 @@ a:focus-visible {
   font-family: var(--hand);
   font-size: 22px;
   line-height: 1;
-  text-align: right;
+  text-align: left;
   white-space: nowrap;
   transform: rotate(-1.3deg);
 }
@@ -315,7 +315,7 @@ a:focus-visible {
 }
 
 .venue {
-  margin: 0 0 4px;
+  margin: 0 0 7px;
   color: var(--accent);
   font-family: var(--mono);
   font-size: 11px;
@@ -324,10 +324,10 @@ a:focus-visible {
 }
 
 .paper h3 {
-  margin: 0 0 5px;
+  margin: 0 0 10px;
   font-size: 22px;
   font-weight: 500;
-  line-height: 1.3;
+  line-height: 1.36;
 }
 
 .paper h3 a {
@@ -346,7 +346,7 @@ a:focus-visible {
   color: var(--ink-soft);
   font-size: 16px;
   font-style: italic;
-  line-height: 1.45;
+  line-height: 1.52;
 }
 
 .authors strong {
@@ -417,12 +417,7 @@ a:focus-visible {
     gap: 30px;
   }
 
-  .hero-copy {
-    padding-top: 0;
-  }
-
   .portrait {
-    grid-row: 1;
     justify-self: center;
   }
 
