@@ -75,11 +75,12 @@ git push origin main
 - Branch: `main`
 - Folder: `/(root)`
 
-### 关于当前仓库名称
+### 当前站点
 
-当前 Git remote 的仓库所有者是 `wangzr1202`，仓库名是 `wangzirui.github.io`。如果你希望根地址是 `https://wangzr1202.github.io/`，仓库必须重命名为 `wangzr1202.github.io`。保持当前名称时，它通常会作为项目页面发布在 `https://wangzr1202.github.io/wangzirui.github.io/`。
+- 在线主页：<https://wangzr1202.github.io/>
+- 源代码：<https://github.com/wangzr1202/wangzr1202.github.io>
 
-本项目全部使用相对路径，因此两种地址都可以正常加载资源。
+仓库所有者和仓库名现在均符合 GitHub Pages 个人站点的命名规则。页面资源使用相对路径，并在 HTML 中声明了正式主页地址。
 
 ## References & acknowledgements
 
