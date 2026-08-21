@@ -1,0 +1,21 @@
+Attribution Notice
+==================
+
+The visual direction and academic content hierarchy of this project were
+inspired by Ying Wang's personal homepage and its public source repository:
+
+  https://yingwangg.github.io/
+  https://github.com/YingWANGG/YingWANGG.github.io
+
+That project is based on al-folio, an MIT-licensed academic website theme:
+
+  https://github.com/alshedivat/al-folio
+
+This repository is a lightweight static reimplementation. It does not
+redistribute the referenced author's biography, portrait, publication data, or
+publication images, and it does not include al-folio's Jekyll build system.
+
+The al-folio license in the downloaded reference repository contains the
+following copyright notice:
+
+  Copyright (c) 2022 Maruan Al-Shedivat.
