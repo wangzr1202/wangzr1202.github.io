@@ -16,6 +16,7 @@ Then open <http://localhost:8000>.
 
 The visual direction and content structure were informed by:
 
+- [Saining Xie's homepage](https://www.sainingxie.com/)
 - [Ying Wang's homepage](https://yingwangg.github.io/)
 - [YingWANGG.github.io](https://github.com/YingWANGG/YingWANGG.github.io)
 - [al-folio](https://github.com/alshedivat/al-folio)

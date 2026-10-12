@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Personal academic homepage of Zirui Wang.">
-    <meta name="theme-color" content="#fbf8f1">
+    <meta name="theme-color" content="#fcfbf8">
     <title>Zirui Wang</title>
 
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -12,129 +12,107 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&amp;family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=JetBrains+Mono:wght@300;400&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="styles.css?v=20260821-2">
+    <link rel="stylesheet" href="styles.css?v=20261012-2">
   </head>
 
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <main id="main-content">
-      <header class="hero reveal">
+      <header class="hero">
         <h1 class="name">Zirui Wang</h1>
 
-        <div class="intro-row">
-          <div class="intro body-copy">
-            <p>
-              I am a PhD student at the University of Chinese Academy of Sciences
-              (UCAS, AIRCAS), working on <strong>world models</strong>.
-            </p>
-            <p>
-              Previously, I earned a B.S. in Artificial Intelligence from UESTC.
-            </p>
+        <figure class="portrait">
+          <img src="figures/wzr.png" alt="Portrait of Zirui Wang" width="588" height="784">
+        </figure>
 
-            <nav class="contact" aria-label="Contact and profile links">
-              <a href="mailto:wangzirui23@mails.ucas.ac.cn">Email</a>
-              <span aria-hidden="true">|</span>
-              <a href="https://github.com/wangzr1202">GitHub</a>
-              <span aria-hidden="true">|</span>
-              <a href="https://scholar.google.com/citations?user=Sbf8PrgAAAAJ">Google Scholar</a>
-              <span aria-hidden="true">|</span>
-              <a href="https://www.linkedin.com/in/zirui-wang-09a94942b/">LinkedIn</a>
-            </nav>
-          </div>
+        <div class="intro">
+          <p>
+            I am a PhD student at the University of Chinese Academy of Sciences
+            (UCAS, AIRCAS), working on <strong>world models</strong>.
+          </p>
+          <p>
+            Previously, I earned a B.S. in Artificial Intelligence from UESTC.
+          </p>
 
-          <figure class="portrait">
-            <!-- TODO: Replace assets/portrait-placeholder.svg with your portrait. -->
-            <img src="assets/portrait-placeholder.svg" alt="Portrait placeholder for Zirui Wang">
-            <figcaption>replace with your portrait</figcaption>
-          </figure>
+          <nav class="contact" aria-label="Contact and profile links">
+            <a href="mailto:wangzirui23@mails.ucas.ac.cn">Email</a>
+            <span aria-hidden="true">|</span>
+            <a href="https://github.com/wangzr1202">GitHub</a>
+            <span aria-hidden="true">|</span>
+            <a href="https://scholar.google.com/citations?user=Sbf8PrgAAAAJ">Google Scholar</a>
+            <span aria-hidden="true">|</span>
+            <a href="https://www.linkedin.com/in/zirui-wang-09a94942b/">LinkedIn</a>
+          </nav>
         </div>
       </header>
 
-      <section class="content-section reveal reveal-delay-1" aria-labelledby="about-heading">
+      <section class="content-section" aria-labelledby="news-heading">
         <div class="section-heading">
-          <h2 id="about-heading">about me</h2>
-        </div>
-
-        <div class="about-copy body-copy">
-          <p>More details about my background, research interests, and current work will be added here.</p>
-        </div>
-      </section>
-
-      <section class="content-section reveal reveal-delay-2" aria-labelledby="news-heading">
-        <div class="section-heading">
-          <h2 id="news-heading">news</h2>
+          <h2 id="news-heading">News</h2>
         </div>
 
         <div class="news-list">
-          <!-- TODO: Copy an entry block to add news; keep newest entries first. -->
           <article class="news-entry">
-            <time datetime="2026-08">08 &rsquo;26</time>
-            <p>Personal homepage launched. More updates are coming soon.</p>
+            <time datetime="2023-09">Sep 2023</time>
+            <p>Started my PhD at the University of Chinese Academy of Sciences (UCAS, AIRCAS).</p>
           </article>
-          <article class="news-entry is-placeholder">
-            <time>00 &rsquo;00</time>
-            <p>[Add an award, publication, talk, internship, or other update.]</p>
+          <article class="news-entry">
+            <time datetime="2023-07">Jul 2023</time>
+            <p>Graduated from UESTC with a B.S. in Artificial Intelligence.</p>
           </article>
-          <article class="news-entry is-placeholder">
-            <time>00 &rsquo;00</time>
-            <p>[Add another recent update here.]</p>
+          <article class="news-entry">
+            <time datetime="2022-12">Dec 2022</time>
+            <p>Joined Bracco as an intern (until June 2023).</p>
+          </article>
+          <article class="news-entry">
+            <time datetime="2019-09">Sep 2019</time>
+            <p>Started my B.S. in Artificial Intelligence at UESTC.</p>
           </article>
         </div>
       </section>
 
-      <section class="content-section reveal reveal-delay-3" aria-labelledby="papers-heading">
+      <section class="content-section" aria-labelledby="papers-heading">
         <div class="section-heading">
-          <h2 id="papers-heading">selected papers</h2>
+          <h2 id="papers-heading">Selected Publications</h2>
         </div>
 
         <ol class="papers-list">
-          <!-- TODO: Duplicate a paper item for each publication and replace its text/links. -->
           <li class="paper" id="paper-1">
-            <div class="paper-preview" aria-hidden="true">
-              <span>01</span>
-              <small>paper preview</small>
-            </div>
-            <div class="paper-meta">
-              <p class="venue">VENUE / STATUS · YEAR</p>
-              <!-- TODO: Replace the href with the paper URL. -->
-              <h3><a href="#paper-1">[Your First Paper Title]</a></h3>
-              <p class="authors"><strong>Zirui Wang</strong>, Collaborator One, Collaborator Two</p>
-            </div>
+            <p class="venue">NeurIPS 2026</p>
+            <h3><a href="https://neurips.cc/virtual/2026/loc/sydney/poster/152886">Auditing Single-Query Recoverability in Self-Supervised Representations</a></h3>
+            <p class="authors"><strong>Zirui Wang</strong>, Guangqiang He, &hellip;, Zhen Fang</p>
+            <p class="paper-links"><a href="https://neurips.cc/virtual/2026/loc/sydney/poster/152886" aria-label="Paper: Auditing Single-Query Recoverability in Self-Supervised Representations">Paper <span aria-hidden="true">↗</span></a></p>
           </li>
 
           <li class="paper" id="paper-2">
-            <div class="paper-preview" aria-hidden="true">
-              <span>02</span>
-              <small>paper preview</small>
-            </div>
-            <div class="paper-meta">
-              <p class="venue">VENUE / STATUS · YEAR</p>
-              <!-- TODO: Replace the href with the paper URL. -->
-              <h3><a href="#paper-2">[Your Second Paper Title]</a></h3>
-              <p class="authors">Collaborator One, <strong>Zirui Wang</strong>, Collaborator Two</p>
-            </div>
+            <p class="venue">Findings of EMNLP 2026</p>
+            <h3>Atoms and Grammar of the Heart: Geometry-Aligned Discrete Tokenization for ECG Language Modeling</h3>
+            <p class="authors"><strong>Zirui Wang</strong>, Qiuling Yang, &hellip;, Zhen Fang</p>
+            <p class="paper-status">Paper forthcoming</p>
           </li>
 
           <li class="paper" id="paper-3">
-            <div class="paper-preview" aria-hidden="true">
-              <span>03</span>
-              <small>paper preview</small>
-            </div>
-            <div class="paper-meta">
-              <p class="venue">VENUE / STATUS · YEAR</p>
-              <!-- TODO: Replace the href with the paper URL. -->
-              <h3><a href="#paper-3">[Your Third Paper Title]</a></h3>
-              <p class="authors"><strong>Zirui Wang</strong>, Collaborator One</p>
-            </div>
+            <p class="venue">npj Artificial Intelligence · 2026</p>
+            <h3><a href="https://www.nature.com/articles/s44387-026-00139-6">Quantized ECG representations unlock comprehensive cardiac understanding</a></h3>
+            <p class="authors"><strong>Zirui Wang</strong>, Yizhuo Feng, &hellip;, Zhen Fang</p>
+            <p class="paper-links"><a href="https://www.nature.com/articles/s44387-026-00139-6" aria-label="Paper: Quantized ECG representations unlock comprehensive cardiac understanding">Paper <span aria-hidden="true">↗</span></a></p>
+          </li>
+
+          <li class="paper" id="paper-4">
+            <p class="venue">Microsystems &amp; Nanoengineering · 2026</p>
+            <h3><a href="https://www.nature.com/articles/s41378-026-01236-x">Generalizable self-supervised learning for imaging flow cytometry on multi-dataset leukocyte differential</a></h3>
+            <p class="authors">Xukun Huang, <strong>Zirui Wang</strong><sup>*</sup>, &hellip;, Jian Chen<sup>*</sup></p>
+            <p class="author-note">* Corresponding authors</p>
+            <p class="paper-links"><a href="https://www.nature.com/articles/s41378-026-01236-x" aria-label="Paper: Generalizable self-supervised learning for imaging flow cytometry on multi-dataset leukocyte differential">Paper <span aria-hidden="true">↗</span></a></p>
           </li>
         </ol>
       </section>
 
-      <footer class="site-footer reveal reveal-delay-3">
+      <footer class="site-footer">
         <p>
           &copy; 2026 Zirui Wang ·
           <a href="https://github.com/wangzr1202/wangzr1202.github.io">source</a>
